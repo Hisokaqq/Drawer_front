@@ -1,37 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real-Time Collaborative Drawer
+
+## Overview
+
+Welcome to the Real-Time Collaborative Drawer, a Next.js project integrated with Node.js. This application allows users to share a single canvas where they can draw, express, and witness art being created by others in real-time across the globe. It's an experiment in collaborative creativity and instant sharing.
+
+Experience the application live: [Link](https://drawer-front.vercel.app/)
+
+Backend(websockets): [Link](https://github.com/Hisokaqq/drawer)
+
+## Features
+
+- **Shared Canvas:** A single drawing plane shared among all users.
+- **Real-Time Updates:** See what others are drawing in real-time. Changes on the canvas are instantly visible to all participants.
+- **Intuitive Drawing Tools:** Offers basic drawing tools such as brush size, color picker, and eraser for a seamless drawing experience.
+
+## Technology Stack
+
+This project is built using the following technologies:
+
+- **Frontend:** Next.js for the React framework providing server-side rendering and generating static websites.
+- **Backend:** Node.js for handling real-time web socket connections, ensuring seamless communication between the client and server.
+- **Deployment:** Deployed on Vercel for frontend hosting, providing fast loading times and automatic scaling.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Drawer_front
+- npm
+  ```sh
+  npm install npm@latest -g
+  git clone https://github.com/Hisokaqq/drawer.git
+  npm install
+  npm run dev
